@@ -46,10 +46,7 @@ teams.forEach((team) => {
 
   const { name, foul } = team;
 
-  const newTeam = {
-    name,
-    foul,
-  };
+  const newTeam = { name, foul };
 
   result.innerHTML += `
   <li>
